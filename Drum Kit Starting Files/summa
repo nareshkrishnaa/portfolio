@@ -1,0 +1,8 @@
+ // Get references to the button and s1udio element
+ var l1 = document.getElementById("l1");
+ var l = document.getElementById("l");
+
+ // Add a click event listener to the button
+ l1.addEventListener("click", function() {
+     l.play();
+ });

@@ -1,0 +1,67 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(250, 240, 240);
+  }
+
+  .single-centered-flexbox{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image{
+    width: 300px;
+  }
+  .bg {
+    /* The image used */
+  
+    background-color: rgb(250, 240, 240);
+   
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.title{
+    display: flex;
+    font-family: Georgia, serif;
+    font-size: 3rem;
+    /* text-align: center; */
+    justify-content: center;
+    
+    margin-top: 1rem;
+}
+
+.accordion-button{
+  font-weight: 700;
+  
+  
+}
+.bs-svg{
+    height: 3rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    padding: 10px;
+  }
+  .grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+
+  }
+
+  
